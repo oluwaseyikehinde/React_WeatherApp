@@ -1,0 +1,53 @@
+.container-1{
+    float: left;
+    margin-left: 20px;
+}
+
+.container-2 {
+  float: right;
+  margin-top: 40px;
+}
+
+.container-1 form {
+    margin-top: 3rem;
+}
+
+
+.container-2 form {
+    margin-top: 3rem;
+}
+
+.container-1 {
+  text-align: center;
+}
+
+.container-3 {
+    margin-right: 10px;
+  }
+
+  .container-3 p{
+      margin-top: 40px;
+  }
+  
+  .section {
+    padding: 50px 0;
+  }
+
+form input[name="city"],
+form input[name="country"]{
+    background-color: transparent;
+    color: azure;
+    border: 0;
+    border-bottom: 2px solid whitesmoke;
+    border-radius: 0;
+}
+
+form input:focus{
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+#inputID::placeholder {
+    color: lightblue;
+    opacity: 1;
+}
